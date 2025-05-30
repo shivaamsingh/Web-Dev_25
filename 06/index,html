@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the a page which contains description about Larry.">
+    <title>About Larry</title>
+</head>
+<body>
+    <h1>Larry</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est saepe culpa asperiores, nulla laborum dolore corporis, rerum, quaerat exercitationem maxime nemo ad quisquam eaque quidem tempore. Iste voluptatibus velit eligendi minus dolore nemo, ipsa, et blanditiis optio quos maiores neque temporibus nihil ad minima vitae rerum voluptatum unde modi, aliquam commodi nostrum explicabo earum quisquam.</p>
+</body>
+</html>
+
+<!--
+    SEO= Search Engine Optimization 
+    SEO is the process of optimizing a website to improve its visibility and ranking on search engines like Google, Bing, etc. It involves various techniques such as keyword research, content optimization, link building, and technical SEO to attract organic traffic and enhance the user experience.
+
+
+    
+    CLS= Cumulative Layout Shift
+    CLS is a metric that measures the visual stability of a webpage as it loads. It quantifies how much the content shifts around during loading, which can negatively impact user experience. A low CLS score indicates a stable page layout, while a high score suggests significant layout shifts that can frustrate users.
+
+
+    
+    LCP= Largest Contentful Paint
+    LCP is a performance metric that measures the time it takes for the largest visible content element on a webpage to load and become visible to the user. It is an important factor in user experience, as a fast LCP indicates that the main content of the page is loading quickly, enhancing user satisfaction.(2.5 seconds is the ideal LCP time)
+
+
+    FID= First Input Delay
+    FID is a performance metric that measures the time it takes for a webpage to respond to the first user interaction, such as clicking a button or link. A low FID indicates a responsive page that quickly reacts to user input, while a high FID suggests delays that can lead to frustration and a poor user experience.
+    (100 milliseconds is the ideal FID time)
+
+
+    lighthouse=Lighthouse is an open-source, automated tool developed by Google that helps developers assess the performance, accessibility, and SEO of web pages. It provides detailed reports and recommendations for improving various aspects of a website, including loading speed, mobile-friendliness, and best practices for web development.
+
+
+
+
+
+
+ -->
