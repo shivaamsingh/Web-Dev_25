@@ -1,0 +1,12 @@
+Block Elements (Most Commonly Used First)
+
+<div>: A generic container for flow content. 
+<p>: Represents a paragraph of text.
+<h1> to <h6>: Headings, with <h1> being the highest level and <h6> the lowest.
+<ul>: An unordered list
+<ol>: An ordered list.
+<li>: A list item, used within <ul> or <ol>.
+<form>: A section containing from controls.
+<table>: A table, used to display tabular data.
+<section>: A stand-alone section of a document.
+<header>: 
