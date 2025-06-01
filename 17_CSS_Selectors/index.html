@@ -6,20 +6,89 @@
     <title>CSS Selectors</title>
     <style >
        /* Element Selectors */
-        div{
+       div{
+           /*  background-color: red;*/
+        }
+
+
+        /* Class Selectors */
+        .red{
             background-color: red;
         }
-        .red{
-            background-color
+
+
+
+        /* ID Selectors */
+        #blue{
+            background-color: blue;
         }
+
+
+
+       /* Child Selector*/
+       div > p{
+        color: rgb(255, 255, 255);
+        background-color: rgb(187, 23, 135);
+    }
+
+    
+    /* Descendant Selector */
+    div p{
+            color: rgb(255, 255, 255);
+            background-color: rgb(187, 23, 135);
+           
+       }
+
+
+         /* Universal Selector */
+         *{
+            margin: 0;
+            padding: 0;
+
+         }
+
+
+        /* Pseudo Selector */
+         a:visited{
+            color: rgb(83, 229, 43);
+         }
+
+         a:link{
+            color: yellow;
+         }
+
+         a:active{
+            background-color: red;
+         }
+
+         a:hover{
+            color: rgb(9, 198, 245);
+            background-color: rgb(209, 9, 13);
+         }
+         p:first-child{
+            color: aqua;
+         }
     </style>
 </head>
 <body>
+    <main>
+
+        <div class="one">
+            <p>This is a paragraph inside a div.</p>
+            <p>This is another paragraph inside the same div.</p>
+        </div>
+    </main>
     <div class="red">
         I am a div.
+        <article>
+            <p>Hello this is para</p>
+
+        </article>
     </div>
-    <div>
+    <div id="blue">
         I am another div.
     </div>
+    <a href="https://www.google.com/">Go to Google</a>
+    <a href="https://www.facebook.com/">Go to Facebook</a>
 </body>
 </html>
